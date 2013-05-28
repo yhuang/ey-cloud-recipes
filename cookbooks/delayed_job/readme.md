@@ -8,7 +8,7 @@ vary based on the size of the instance running Delayed Job.
 
 ## Installation
 
-To install this, you will need to add the following to cookbooks/main/recipes/default.rb:
+To install this, you will need to add the following to `cookbooks/main/recipes/default.rb`:
 
     require_recipe "delayed_job"
     
@@ -27,4 +27,3 @@ deploy hook to perform the following:
 Make sure to replace <app_name> with the name of your application. You likely want to use the
 after_restart hook for this. See our [Deploy Hook](https://engineyard.zendesk.com/entries/21016568-use-deploy-hooks) documentation
 for more information on using deploy hooks.
-
