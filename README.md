@@ -18,6 +18,11 @@ A full guide to customizing your EY Cloud environment with chef can be found at 
 
 - https://support.cloud.engineyard.com/entries/21009867-Customize-Your-Environment-with-Chef-Recipes
 
+The following pages may also be of some use:
+
+- https://support.cloud.engineyard.com/entries/21009927-engine-yard-cli-user-guide#eyrecipesapply
+- https://support.cloud.engineyard.com/entries/21406977-custom-chef-recipes-examples-best-practices
+
 ## Chef Documentation
 
 Below is a list of chef documentation pages that you may find useful, especially if you are just getting started with chef:
