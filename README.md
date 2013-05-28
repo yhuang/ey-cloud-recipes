@@ -10,7 +10,12 @@ The ey-cloud-recipes repository is a collection of [chef](http://wiki.opscode.co
 
 ## Quick Start Guide
 
-TODO
+1. Clone this repository
+2. Uncomment the recipes that you wish to use in `cookbooks/main/recipes/default.rb`
+3. Make any changes that are mentioned in the individual cookbook's `readme.md` file
+4. Install the [engineyard](https://github.com/engineyard/engineyard) gem, if you haven't already (`gem install engineyard`).
+5. Upload your recipes to EY Cloud using `ey recipes upload -e ENVIRONMENT`, where `ENVIRONMENT` is the name of your environment.
+6. Run your recipes on the environment using `ey recipes apply -e ENVIRONMENT`
 
 ## EY Cloud Documentation
 
@@ -40,4 +45,4 @@ There is also a great RailsCast on the use of chef-solo (however, it is only ava
 
 ### What version of chef is used on EY Cloud
 
-We use [chef-solo](http://docs.opscode.com/chef_solo.html) on EY Cloud. If you are using the new Gentoo 2012 stack, then you will be using chef 10, whereas on older stacks the version is 0.6
+We use [chef-solo](http://docs.opscode.com/chef_solo.html) on EY Cloud. If you are using the new Gentoo 2012 stack, then you will be using chef 10. If you are running on an older version of the stack, then it will be chef 0.6.
