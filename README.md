@@ -8,6 +8,10 @@ The ey-cloud-recipes repository is a collection of [chef](http://wiki.opscode.co
 
 ** Note: These cookbooks are for reference, and do not indicate a supported status. **
 
+## Quick Start Guide
+
+TODO
+
 ## EY Cloud Documentation
 
 A full guide to customizing your EY Cloud environment with chef can be found at the following URL:
