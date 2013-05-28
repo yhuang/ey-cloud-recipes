@@ -43,6 +43,13 @@ There is also a great RailsCast on the use of chef-solo (however, it is only ava
 
 ## FAQ
 
-### What version of chef is used on EY Cloud
+### What version of chef is used on EY Cloud?
 
 We use [chef-solo](http://docs.opscode.com/chef_solo.html) on EY Cloud. If you are using the new Gentoo 2012 stack, then you will be using chef 10. If you are running on an older version of the stack, then it will be chef 0.6.
+
+### How can I view the recipes uploaded to an environment?
+
+You can view the recipes that have been uploaded to an environment in two ways:
+
+- You can download the recipes for an environment using [`ey recipes download`](https://github.com/engineyard/engineyard#ey-recipes-download), which will be downloaded into a directory called `cookbooks` in the current directory.
+- You can login to any of your instances and navigate to `/etc/chef-custom/recipes/cookbooks`, which is the location that your custom cookbooks are located.
