@@ -1,3 +1,5 @@
+include_recipe "binlog_purge_config"
+
 #execute "testing" do
 #  command %Q{
 #    echo "i ran at #{Time.now}" >> /root/cheftime
